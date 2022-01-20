@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+}
+nav{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 1em;
+    outline: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+   
+    background-image: url(./assets/icon.png);
+    background-position: center;
+    background-size: cover;
+}
+.nav-btn{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+
+position: relative;
+width: 6em;
+height: 3em;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+align-items: center;
+background-color:white;
+}
